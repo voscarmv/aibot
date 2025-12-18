@@ -1,0 +1,35 @@
+{
+  "name": "aibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voscarmv/aibot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/voscarmv/aibot/issues"
+  },
+  "homepage": "https://github.com/voscarmv/aibot#readme",
+  "dependencies": {
+    "@voscarmv/aichatbot": "^1.0.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "gitignore": "^0.7.0",
+    "grammy": "^1.38.4",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.16.0",
+    "drizzle-kit": "^0.31.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
