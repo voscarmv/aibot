@@ -20,6 +20,8 @@
   "homepage": "https://github.com/voscarmv/aibot#readme",
   "dependencies": {
     "@voscarmv/aichatbot": "^1.0.5",
+    "@voscarmv/aimessagestore": "^1.0.1",
+    "axios": "^1.13.2",
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.45.1",
     "gitignore": "^0.7.0",
