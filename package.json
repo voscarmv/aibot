@@ -20,7 +20,7 @@
   "homepage": "https://github.com/voscarmv/aibot#readme",
   "dependencies": {
     "@types/node": "^25.0.3",
-    "@voscarmv/aichatbot": "^1.0.9",
+    "@voscarmv/aichatbot": "^1.0.10",
     "@voscarmv/aimessagestore": "^1.0.5",
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
