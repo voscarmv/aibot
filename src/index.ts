@@ -18,6 +18,7 @@ bot.on("message:text", async (ctx) => {
     const content = ctx.message.text;
     console.log(new Date(), "from:", from, content);
     const reply = (content: string) => {
+        if(content.length === 0) return;
         console.log(new Date(), "to:", from, content);
         ctx.reply(content);
     }
