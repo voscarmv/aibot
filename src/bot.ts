@@ -12,6 +12,6 @@ export const aiClient = new OpenAiClient({
     instructions: 'You are a helpful assistant.',
     tools,
     functions,
-    additionalInstructions: currentDate,
+    additionalInstructions: currentDate
 });
 
