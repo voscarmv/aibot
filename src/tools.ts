@@ -34,6 +34,13 @@ export const tools = [
             }
         }
     },
+    {
+        type: 'function' as const,
+        function: {
+            name: 'getOS',
+            description: 'Return the host Operating System',
+        }
+    },
 ];
 
 export const functions = {
@@ -53,5 +60,9 @@ export const functions = {
             result.push(Math.floor(Math.random() * 6) + 1);
         }
         return JSON.stringify(result);
+    },
+    getOS: async (params: any, additionalArgs: any): Promise<string> => {
+        const { platform, type, release, version } = additionalArgs;
+        return `Platform: ${platform}, Type: ${type}, Release: ${release}, Version: ${version}`;
     },
 };
