@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/voscarmv/aibot#readme",
   "dependencies": {
-    "@voscarmv/aichatbot": "^1.0.17",
+    "@voscarmv/aichatbot": "^1.1.1",
     "@voscarmv/aimessagestore": "^1.0.7",
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
