@@ -18,10 +18,10 @@ bot.on("message:text", async (ctx) => {
     const user_id = ctx.message.from.id.toString();
     const content = ctx.message.text;
     console.log(new Date(), "from:", user_id, content);
-    const replyFn = (content: string) => {
+    const replyFn = async (content: string) => {
         if(content.length === 0) return;
         console.log(new Date(), "to:", user_id, content);
-        ctx.reply(content);
+        await ctx.reply(content);
     }
     chat.processMessages({
         user_id, content, replyFn,
